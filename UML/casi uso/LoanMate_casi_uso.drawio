@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Pagina-1" id="WjTUN3KD0NlVGQAg6tuH">
+    <mxGraphModel dx="1627" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-1" target="fUpIjNEKh-ToNN0CDDjo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-1" value="Utente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1050" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-6" target="fUpIjNEKh-ToNN0CDDjo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-6" value="Utente&lt;div&gt;non registrato&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-15" target="fUpIjNEKh-ToNN0CDDjo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-14" target="fUpIjNEKh-ToNN0CDDjo-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-43" value="is_user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fUpIjNEKh-ToNN0CDDjo-37">
+          <mxGeometry x="-0.3418" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-38" value="is_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-14" target="fUpIjNEKh-ToNN0CDDjo-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-14" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-34" target="fUpIjNEKh-ToNN0CDDjo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-34" target="fUpIjNEKh-ToNN0CDDjo-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="672" y="1090" />
+              <mxPoint x="790" y="1090" />
+              <mxPoint x="790" y="1172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-34" target="fUpIjNEKh-ToNN0CDDjo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-34" value="UserHomePage" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.02" y="940" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-35" target="fUpIjNEKh-ToNN0CDDjo-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fUpIjNEKh-ToNN0CDDjo-35" target="fUpIjNEKh-ToNN0CDDjo-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-35" value="AdminHomePage" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.02" y="1190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-17" value="Admin LoanList" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-16" value="User LoanList" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-18" value="LoanRequest" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-19" value="Logout" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-50" value="LoanMate App" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="840" width="870" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="fUpIjNEKh-ToNN0CDDjo-15" value="Signup" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="fUpIjNEKh-ToNN0CDDjo-50">
+          <mxGeometry x="60" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

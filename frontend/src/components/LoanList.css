@@ -1,0 +1,35 @@
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.loan-table th,
+.loan-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.approve-btn {
+  background-color: #28a745;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.reject-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.status-pending {
+  color: #0d6efd;
+}
+
+.status-approved {
+  color: #28a745;
+}
+
+.status-rejected {
+  color: #dc3545;
+}

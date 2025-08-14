@@ -39,7 +39,7 @@ export default function RegisterPage({ onRegistered }: Props) {
 
   return (
     <div>
-      <div className="w-full max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-8">
+      <div className="w-full max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-8 mt-24">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
           MyLoanMate
         </h1>

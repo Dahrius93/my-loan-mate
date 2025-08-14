@@ -102,7 +102,11 @@ function AppRoutes() {
             path="/home"
             element={
               token ? (
-                isAdmin ? <AdminHomePage /> : <UserHomePage />
+                isAdmin ? (
+                  <AdminHomePage />
+                ) : (
+                  <UserHomePage />
+                )
               ) : (
                 <Navigate to="/login" replace />
               )
@@ -118,8 +122,10 @@ function AppRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </>
   );
 }

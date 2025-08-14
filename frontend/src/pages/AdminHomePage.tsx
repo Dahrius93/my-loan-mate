@@ -2,6 +2,7 @@ import LoanList, { type LoanRequest } from "../components/LoanList";
 import { UserDetailModal } from "../components/UserDetailModal";
 import { useState, useEffect } from "react";
 import { getUserProfile } from "../services/api";
+import Footer from "../components/Footer";
 
 export default function AdminHomePage() {
   const [isAdmin, setIsAdmin] = useState<boolean | null>(null);
@@ -24,7 +25,7 @@ export default function AdminHomePage() {
 
   return (
     <div>
-      <div className="pt-2 px-2 md:px-8">
+      <div className="pt-2 px-2 md:px-8 mt-24">
         <div className="w-full">
           <LoanList isAdmin={isAdmin} onUserClick={(u) => setSelectedUser(u)} />
           {selectedUser && (
@@ -36,6 +37,7 @@ export default function AdminHomePage() {
           <div className="pt-16 pb-16"></div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

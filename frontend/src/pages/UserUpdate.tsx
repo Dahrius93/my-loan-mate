@@ -52,7 +52,7 @@ export default function UserUpdate() {
   };
 
   return (
-    <div className="w-full max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-8">
+    <div className="w-full max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-8 mt-24">
       <h2 className="text-2xl font-bold mb-4 text-center">Profilo utente</h2>
       {message && <p className="text-center mb-2">{message}</p>}
       <form onSubmit={handleSubmit} className="flex flex-col space-y-4">

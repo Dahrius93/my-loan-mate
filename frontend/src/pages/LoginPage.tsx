@@ -29,7 +29,7 @@ export default function LoginPage({ onLogged }: Props) {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto bg-white/80 backdrop-blur-md rounded-3xl shadow-xl p-8 border border-gray-200">
+    <div className="w-full max-w-md mx-auto bg-white/80 backdrop-blur-md rounded-3xl shadow-xl p-8 border border-gray-200 mt-24">
       <h1 className="text-3xl font-extrabold text-center text-gray-900 mb-2 tracking-tight">
         MyLoanMate
       </h1>

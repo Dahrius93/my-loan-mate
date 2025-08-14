@@ -1,4 +1,3 @@
-// components/Footer.tsx
 import {
   FaFacebookF,
   FaInstagram,

@@ -10,8 +10,9 @@ from .serializers import UserSerializer, LoanRequestSerializer, LoginSerializer
 
 class LoginView(ObtainAuthToken):
     """Authenticate a user and return an auth token."""
-
-    serializer_class = LoginSerializer # dichiaro che il serializer da usare è LoginSerializer in questo modo swagger mostra login e non user
+    # dichiaro che il serializer da usare è LoginSerializer 
+    # in questo modo swagger mostra login e non user
+    serializer_class = LoginSerializer 
 
     def post(self, request, *args, **kwargs):
         email = request.data.get("email")

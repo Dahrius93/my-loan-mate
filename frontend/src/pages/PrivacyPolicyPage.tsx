@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="w-full max-w-3xl mx-auto bg-white/80 backdrop-blur-md rounded-3xl shadow-xl p-10 border border-gray-200">
+    <div className="w-full max-w-3xl mx-auto bg-white/80 backdrop-blur-md rounded-3xl shadow-xl p-10 border border-gray-200 mt-24">
       <h1 className="text-3xl font-bold mb-6 text-center">
         Informativa sulla Privacy
       </h1>
